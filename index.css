@@ -1,46 +1,125 @@
-header {
-    background-color: #026921;
-    align-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
 }
 
-p {
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 210%;
+
+header {
+    background-color: #960303;
+    align-content: center;
+    transition: 0.4s ease-out;
+    margin: 0;
+    padding: 50px;
+}
+
+header:hover {
+    background-color: #e20000;
+    transition: 0.4s ease-in-out;
+}
+
+
+body {
+    background-color: rgb(196, 196, 196);
 }
 
 main {
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 150%;
+    margin-top: 350px;
+    margin-bottom: 350px;
 }
 
-h2 {
-    color: #026921;
+p#menu {
+    word-spacing:400px;
+    text-align: center;
+    font-size: 60px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 450%;
-    text-align:left
 }
 
-div {
-    color: #026921;
+p#menu:hover {
+    color: #44cc05;
+    text-decoration: none;
+    word-spacing: 400px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a#inicio:link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+a#inicio:visited {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 5px 5px #000000;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
     font-family: "Boldonse", system-ui;
     font-weight: 400;
     font-style: normal;
-}
-
-h3 {
-    color: #026921;
-    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 450%;
-    text-align:left
+    color: #000000;
+    transition: 0.2s ease-out;
 }
 
+h1:hover {
+    color: #000000;
+    font-size: 50px;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    transform: scale(1.4);
+    transition: 0.4s ease-in-out;
+}
+
+
+div {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+div:hover {
+    color: rgb(88, 0, 0);
+    text-shadow: #ff0000 2px 5px 5px;
+    transition: 0.2s ease-in-out;
+    font-size: 80px;
+}
+
+img#dante2 {
+ 
+    transition: 0.5s ease-in-out;
+}
+
+img#dante2:hover {
+    filter: drop-shadow(0 0 400px #880000);
+    transition: 0.5s ease-in-out;
+    transform: scale(0.8);
+}
+
+
+div#dante {
+    text-align: center;
+}
