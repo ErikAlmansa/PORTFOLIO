@@ -28,8 +28,8 @@ main {
     margin-bottom: 350px;
 }
 
-p#menu {
-    word-spacing:400px;
+#menuheader {
+    word-spacing: 400px;
     text-align: center;
     font-size: 60px;
     font-family: "Bebas Neue", sans-serif;
@@ -37,7 +37,7 @@ p#menu {
     font-style: normal;
 }
 
-p#menu:hover {
+#menuheader:hover {
     color: #44cc05;
     text-decoration: none;
     word-spacing: 400px;
@@ -48,13 +48,33 @@ p#menu:hover {
     font-style: normal;
 }
 
-a#inicio:link {
+#menu {
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#menu:hover {
+    color: #44cc05;
+    text-decoration: none;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#inicio:link {
     text-decoration: none;
     color: #ffffff;
     transition: 0.2s ease-in-out;
 }
 
-a#inicio:visited {
+#inicio:visited {
     text-decoration: none;
     color: #ffffff;
     transition: 0.2s ease-in-out;
@@ -88,7 +108,7 @@ h1:hover {
     font-weight: 400;
     font-style: normal;
     font-weight: 400;
-    transform: scale(1.4);
+    transform: scale(1.2);
     transition: 0.4s ease-in-out;
 }
 
@@ -101,25 +121,59 @@ div {
 
 
 
-div:hover {
+#menu:hover {
     color: rgb(88, 0, 0);
     text-shadow: #ff0000 2px 5px 5px;
     transition: 0.2s ease-in-out;
     font-size: 80px;
 }
 
-img#dante2 {
- 
+#dante2 {
+
     transition: 0.5s ease-in-out;
 }
 
-img#dante2:hover {
+#dante2:hover {
     filter: drop-shadow(0 0 400px #880000);
     transition: 0.5s ease-in-out;
     transform: scale(0.8);
 }
 
 
-div#dante {
+#info {
+    color: aliceblue;
+    font-size: 30px;
+    background-color: #4c0000;
+    width: 500px;
+    height: 450px;
+    margin-left: 390px;
+    margin-bottom: 150px;
+    margin-right: 550px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     text-align: center;
+}
+
+
+#info:hover {
+    color: aliceblue;
+    font-size: 30px;
+    background-color: #770505;
+    width: 500px;
+    height: 450px;
+    margin-left: 390px;
+    margin-bottom: 150px;
+    margin-right: 550px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    transform: scale(1.1);
+    box-shadow: 5px 10px 8px black;
+
 }
